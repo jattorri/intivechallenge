@@ -1,5 +1,30 @@
 # intivechallenge
 
+SOLUTION PREVIEW:
+
+![Screenshot 2021-09-28 000316](https://user-images.githubusercontent.com/62064327/135017229-8ddc7619-9225-4309-a866-e17b36d45376.png)
+
+About my solution:
+
+1-Im creating my input.txt with the exact same list as its shown in the challenge example
+
+user1;time1;page_1
+user1;time2;page_2
+user1;time3;page_3
+user1;time4;page_4
+user2;time5;page_1
+user2;time6;page_2
+user2;time7;page_3
+user3;time8;page_1
+user3;time9;page_5
+user3;time10;page_6
+
+2-FileIO Class transform each log from the text file to a list
+3-Finder Class take te log list to find triplets
+4-Top 10 Class orders and counts triplets
+
+
+
 Challenge: 
 Coding question - Triplets
 
@@ -47,4 +72,7 @@ Now you have to count the occurrences of each triplet for this user
 
 page_1,page_2,page_3 -> 2 (one from user1 and one from user2)
 page_1,page_5,page_6 -> 1 
+
+
+
 
