@@ -20,7 +20,9 @@ user3;time9;page_5
 user3;time10;page_6
 
 2-FileIO Class transform each log from the text file to a list
+
 3-Finder Class take te log list to find triplets
+
 4-Top 10 Class orders and counts triplets
 
 
