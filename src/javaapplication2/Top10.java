@@ -14,8 +14,14 @@ import java.util.Collections;
  */
 public class Top10 {
     public void execute(ArrayList list){
+        ArrayList cantTriplets = new ArrayList();
        for (Object item : list){
-           System.out.println( "Triplet:" + item + " Repeticion: " + Collections.frequency(list, item));
+           if(!cantTriplets.contains(item.toString()))
+           {
+               cantTriplets.add(item);
+           }
        }
+       for (Object item : cantTriplets)
+       System.out.println( "Triplet:" + item + " Repeticion: " + Collections.frequency(list, item));
     }
 }
